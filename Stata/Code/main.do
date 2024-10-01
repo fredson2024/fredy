@@ -3,7 +3,7 @@
 *******************************************************************************/
 
 	* Set version
-	*version ???
+	version 16.0
 
 	* Set project global(s)	
 	// User: you 
@@ -11,10 +11,9 @@
 	
 	* Add file paths to DataWork folder and the Github folder for RRF2024
 	if "`c(username)'" == "LATTOP4" {
-        *global onedrive "???/DataWork"
+        global onedrive "C:\Users\LATTOP4\Desktop\DataWork"
 		global github 	"C:\Users\LATTOP4\Documents\GitHub\fredy"
     }
-	
 	
 	* Set globals for sub-folders 
 	global data 	"${onedrive}/Data"
